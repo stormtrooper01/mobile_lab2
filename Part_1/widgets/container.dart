@@ -15,22 +15,12 @@ class MyApp extends StatelessWidget {
           child: Container(
             width: 150.0,
             height: 100.0,
-            decoration: BoxDecoration(
-              color: Colors.pinkAccent,
-              boxShadow: [
-                BoxShadow(
-                  offset: const Offset(3.0, 3.0),
-                  blurRadius: 5.0,
-                  spreadRadius: 2.0,
-                ),
-              ],
-            ),
-            child: Text('Han Solo',
+            color: Colors.cyan,
+            child: Text('Star Wars',
               style: new TextStyle(
-                backgroundColor: Colors.amber,
-                fontSize: 30.0,
                 color: Colors.white,
-                fontFamily: 'Monospace',
+                fontFamily: 'Roboto',
+                fontSize: 40.0,
               ),
             ),
           ),
