@@ -22,8 +22,16 @@ class MyApp extends StatelessWidget {
                   offset: const Offset(3.0, 3.0),
                   blurRadius: 5.0,
                   spreadRadius: 2.0,
-                )
-              ]
+                ),
+              ],
+            ),
+            child: Text('Han Solo',
+              style: new TextStyle(
+                backgroundColor: Colors.amber,
+                fontSize: 30.0,
+                color: Colors.white,
+                fontFamily: 'Monospace',
+              ),
             ),
           ),
         ),
