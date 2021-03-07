@@ -13,14 +13,24 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Container(
-            color: Colors.cyan,
             width: 150.0,
             height: 100.0,
-            child: Text('Star Wars',
+            decoration: BoxDecoration(
+              color: Colors.pinkAccent,
+              boxShadow: [
+                BoxShadow(
+                  offset: const Offset(3.0, 3.0),
+                  blurRadius: 5.0,
+                  spreadRadius: 2.0,
+                ),
+              ],
+            ),
+            child: Text('Han Solo',
               style: new TextStyle(
-              color: Colors.white,
-              fontSize: 35.0,
-              fontFamily: 'Roboto',
+                backgroundColor: Colors.amber,
+                fontSize: 30.0,
+                color: Colors.white,
+                fontFamily: 'Monospace',
               ),
             ),
           ),
